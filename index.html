@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money Wise - Expense Tracker</title>
+  <script src="./js/index.js"></script>
+</head>
+
+<body>
+  <h1>Money Wise</h1>
+  <h2>New Transaction</h2>
+  <form>
+    <input type="text" id="description" placeholder="Enter Description" required>
+    <input type="text" id="type" placeholder="Income/Expense" required>
+    <input type="number" id="amount" placeholder="Amount" required>
+    <input type="submit" value="Add">
+  </form>
+  <h2>Transactions</h2>
+  <table id="transaction-table">
+    <thead>
+      <tr>
+        <th>Description</th>
+        <th>Type</th>
+        <th>Amount</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="transactions-list"></tbody>
+  </table>
+
+  
+</body>
+
+</html>
